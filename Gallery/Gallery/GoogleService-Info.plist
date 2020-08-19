@@ -3,34 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>936286010895-2t3dku4ui5vc7u4j1ibvdhrdc32nlq1b.apps.googleusercontent.com</string>
+	<string>710607173484-resmdpmsuosv2u7itqck3j435o0vmmt1.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.936286010895-2t3dku4ui5vc7u4j1ibvdhrdc32nlq1b</string>
+	<string>com.googleusercontent.apps.710607173484-resmdpmsuosv2u7itqck3j435o0vmmt1</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAkm7i0mbanZjJJn4SLA2cZG9wjs1Tm1fA</string>
+	<string>AIzaSyB_nErUVkzvyiKPAJS4TMGQKjVdUNmmv0M</string>
 	<key>GCM_SENDER_ID</key>
-	<string>936286010895</string>
+	<string>710607173484</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.Gallery</string>
 	<key>PROJECT_ID</key>
-	<string>youroutehknu</string>
+	<string>youroute-version2</string>
 	<key>STORAGE_BUCKET</key>
-	<string>youroutehknu.appspot.com</string>
+	<string>youroute-version2.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_GCM_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:936286010895:ios:e7e7cef1a74e342d612d7a</string>
+	<string>1:710607173484:ios:7ae7b1e6a650888e08e549</string>
 	<key>DATABASE_URL</key>
-	<string>https://youroutehknu.firebaseio.com</string>
+	<string>https://youroute-version2.firebaseio.com</string>
 </dict>
 </plist>

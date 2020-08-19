@@ -24,7 +24,7 @@
 		013BA3F3246CBAE800E99C24 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 013BA3EE246CBAE800E99C24 /* 3.jpg */; };
 		013BA3F4246CBAE800E99C24 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 013BA3EF246CBAE800E99C24 /* 5.jpg */; };
 		013BA3F5246CBAE800E99C24 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 013BA3F0246CBAE800E99C24 /* 4.jpg */; };
-		047F53832487E0E800016B6D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 047F53822487E0E800016B6D /* GoogleService-Info.plist */; };
+		044AF70824ECAA540055FA8A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 044AF70724ECAA530055FA8A /* GoogleService-Info.plist */; };
 		62FCE2362CC3C1E9966788D7 /* Pods_Gallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE291B6E0F6DA4ECBE97739 /* Pods_Gallery.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +48,7 @@
 		013BA3EE246CBAE800E99C24 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		013BA3EF246CBAE800E99C24 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
 		013BA3F0246CBAE800E99C24 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
-		047F53822487E0E800016B6D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		044AF70724ECAA530055FA8A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		232A1521AAD31A8D86687457 /* Pods-Gallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gallery.debug.xcconfig"; path = "Target Support Files/Pods-Gallery/Pods-Gallery.debug.xcconfig"; sourceTree = "<group>"; };
 		2FE291B6E0F6DA4ECBE97739 /* Pods_Gallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67797A8FA47AB73A67BE4C1B /* Pods-Gallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gallery.release.xcconfig"; path = "Target Support Files/Pods-Gallery/Pods-Gallery.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 				013BA3B7246C810D00E99C24 /* Main.storyboard */,
 				013BA3BA246C810E00E99C24 /* Assets.xcassets */,
 				013BA3BF246C810E00E99C24 /* Info.plist */,
-				047F53822487E0E800016B6D /* GoogleService-Info.plist */,
+				044AF70724ECAA530055FA8A /* GoogleService-Info.plist */,
 				013BA3EA246CAE6600E99C24 /* StoryController.swift */,
 				012DE2942473648D000C3BDE /* SearchController.swift */,
 				012DE29624736DF0000C3BDE /* MainController.swift */,
@@ -147,6 +147,7 @@
 				013BA3AB246C810D00E99C24 /* Frameworks */,
 				013BA3AC246C810D00E99C24 /* Resources */,
 				29036FC53043DFF65E7BC3ED /* [CP] Embed Pods Frameworks */,
+				D62AED4B41B4E74156324F58 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,12 +196,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044AF70824ECAA540055FA8A /* GoogleService-Info.plist in Resources */,
 				013BA3F5246CBAE800E99C24 /* 4.jpg in Resources */,
 				013BA3F3246CBAE800E99C24 /* 3.jpg in Resources */,
 				013BA3F4246CBAE800E99C24 /* 5.jpg in Resources */,
 				013BA3CA246C8DAF00E99C24 /* test.jpeg in Resources */,
 				013BA3CB246C8DAF00E99C24 /* test4.jpeg in Resources */,
-				047F53832487E0E800016B6D /* GoogleService-Info.plist in Resources */,
 				013BA3F1246CBAE800E99C24 /* 2.jpg in Resources */,
 				013BA3C9246C8DAF00E99C24 /* test3.jpeg in Resources */,
 				013BA3BB246C810E00E99C24 /* Assets.xcassets in Resources */,
@@ -250,6 +251,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D62AED4B41B4E74156324F58 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gallery/Pods-Gallery-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gallery/Pods-Gallery-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gallery/Pods-Gallery-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
